@@ -1,0 +1,13 @@
+@import "header.css";
+
+@import "footer.css";
+
+@import "main.css";
+
+@import "../base/swiper-bundle.min.css";
+
+@import "sliderStyles.css";
+
+@import "signUp.css";
+
+@import "preloader.css";

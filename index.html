@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>КарьераТочка</title>
+    <link rel="stylesheet" href="styles/blocks/style.css">
+</head>
+<body>
+<header class="top-header">
+    <nav class="nav-bar">
+        <div class="brand-logo">
+            <h3>КарьераТочка</h3>
+        </div>
+        <div class="nav-options">
+            <p>Для работодателей</p>
+            <button class="btn-register" id="openModal">Регистрация</button>
+            <button class="btn-login">Вход</button>
+        </div>
+    </nav>
+</header>
+
+<main class="main-content">
+    <div class="loading-screen">
+        <div class="spinner"></div>
+    </div>
+    <div class="modal-backdrop"></div>
+    <div id="registrationModal" class="modal-box">
+        <div class="modal-body">
+            <form id="registrationForm">
+                <label class="field-label" for="userName">Имя:</label>
+                <input type="text" id="userName" name="userName" required><br><br>
+                <label for="userEmail">Email:</label>
+                <input type="email" id="userEmail" name="userEmail" required><br><br>
+                <div class="form-controls">
+                    <button type="button" id="confirmBtn">Подтвердить</button>
+                    <button type="button" id="closeBtn">Отмена</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <section class="hero-area">
+        <div class="hero-text">
+            <h1>Кандидаты с творческим и техническим опытом</h1>
+            <p>Покажите себя и найдите начальные позиции в передовых компаниях. Начните карьеру здесь.</p>
+            <button class="btn-join">Присоединиться</button>
+            <p>Ищете кандидатов? Наймите сейчас</p>
+            <div class="background-fade">
+                <img class="hero-image" src="img/Candidates.png">
+            </div>
+            <div class="quote-block">
+                <img class="quote-icon-left" src="img/11-11%20140357.png">
+                <img class="quote-icon-right" src="img/140431.png">
+            </div>
+            <h1>Создание онлайн-присутствия сложно.</br> КарьераТочка упрощает это для работодателей</h1>
+            <p>Чжао Цуй</p>
+            <p>Основатель КарьераТочка.co</p>
+        </div>
+    </section>
+    <section class="info-section">
+        <h2>Всё, что вам нужно знать, в одном месте.</h2>
+        <div class="card-container">
+            <div class="card">
+                <h3 class="card-title">Достигайте целей</h3>
+                <p class="card-text">Сделайте следующий шаг в карьере с нашей платформой подбора вакансий.</p>
+                <img src="img/slider1.jpg" alt="Достигайте целей" class="card-image">
+            </div>
+        </div>
+        <div class="slider-area">
+            <div class="slide-item active">
+                <h3>Профиль 1</h3>
+                <p>1. Поиск работы — стресс, но мы упростили процесс. Создайте портфолио за пару минут.</p>
+            </div>
+            <div class="slide-item">
+                <h3>Профиль 2</h3>
+                <p>2. Поиск работы — стресс, но мы упростили процесс. Создайте портфолио за пару минут.</p>
+            </div>
+            <div class="slide-item">
+                <h3>Профиль 3</h3>
+                <p>3. Поиск работы — стресс, но мы упростили процесс. Создайте портфолио за пару минут.</p>
+            </div>
+        </div>
+    </section>
+    <div class="connection-section">
+        <div class="connection-details">
+            <img src="img/183343.png" alt="Связь с работодателем">
+            <div class="connection-text">
+                <h1>Связь с работодателем</h1>
+                <p>Получите мгновенный доступ к отобранным творческим и техническим талантам.</p>
+            </div>
+        </div>
+    </div>
+    <div class="profile-section">
+        <div class="profile-details">
+            <div class="profile-text">
+                <h1>Настройте профиль.<br/> Пусть вакансии найдут вас.</h1>
+                <a href="#" class="btn-join">Присоединиться</a>
+            </div>
+            <div class="profile-pic">
+                <img src="img/photo_2024-11-20_18-49-23.jpg" alt="Настройте профиль">
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer class="site-footer">
+    <div class="footer-left">
+        <h3>КарьераТочка.co</h3>
+        <a>Поддерживаем молодых творческих и технических специалистов.</a>
+        <p>2023 КарьераТочка.co Все права защищены.</p>
+    </div>
+    <div class="footer-right">
+        <a href="#">Условия использования</a>
+        <a href="#">Политика конфиденциальности</a>
+    </div>
+</footer>
+<script src="scripts/swiper-bundle.min.js"></script>
+<script src="scripts/modalManager.js"></script>
+<script src="scripts/pageInit.js"></script>
+<script src="scripts/dataLoader.js"></script>
+<script src="ts/main.js"></script>
+</body>
+</html>

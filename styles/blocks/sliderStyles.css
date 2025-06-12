@@ -1,0 +1,44 @@
+.info-section {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.slider-area {
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card-image {
+    max-width: 890px;
+}
+
+.slide-item.active {
+    border-top: 4px solid #3D1EDD;
+    background-color: #f0f0ff;
+}
+
+.slide-item {
+    flex: 0 1 30%;
+    background-color: #f9f9f9;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-top: 4px solid #ccc;
+    transition: transform 0.2s, background-color 0.2s;
+    cursor: pointer;
+    margin: 10px;
+    max-width: 230px;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+p {
+    font-size: 13px;
+    color: #717171;
+}

@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "swiper": "^11.1.15",
+    "tsc": "^2.0.4",
+    "typescript": "^5.8.3"
+  }
+}

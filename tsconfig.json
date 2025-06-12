@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "allowJs": true,
+    "checkJs": true,
+    "sourceMap": true,
+    "outFile": "scripts/dataLoader.js"
+  },
+  "include": ["ts/**/*"]
+}

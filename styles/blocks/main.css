@@ -1,0 +1,155 @@
+.main-content {
+    padding-top: 80px;
+}
+
+.hero-area {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.hero-text {
+    text-align: center;
+    width: 100%;
+}
+
+.hero-text h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    margin-bottom: 20px;
+}
+
+.btn-join {
+    border: rgba(200, 198, 221, 0.75);
+    justify-content: center;
+    margin: 40px 0;
+    align-items: center;
+    padding: 15px 33px;
+    background-color: rgba(61, 30, 221, 0.9);
+    color: white;
+}
+
+.background-fade {
+    position: relative;
+    width: 100%;
+}
+
+.background-fade::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, black 50%, white 50%);
+    z-index: -2;
+}
+
+.hero-image {
+    width: 850px;
+    display: block;
+    margin: 0 auto;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.quote-block {
+    align-items: center;
+    margin-top: 50px;
+}
+
+.quote-icon-left {
+    width: 70px;
+    margin-left: -300px;
+}
+
+.quote-icon-right {
+    width: 80px;
+    margin-left: 210px;
+}
+
+.info-section {
+    text-align: center;
+    padding: 80px 0;
+}
+
+.info-section h1 {
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+
+.connection-section {
+    padding: 80px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.connection-details {
+    max-width: 800px;
+    display: flex;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.connection-details img {
+    max-width: 300px;
+    height: auto;
+    margin-right: 40px;
+}
+
+.connection-text {
+    flex: 1;
+}
+
+.connection-text h1 {
+    margin-top: 20%;
+    margin-bottom: 20px;
+}
+
+.connection-text p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.profile-section {
+    display: flex;
+    align-items: center;
+    background-color: black;
+}
+
+.profile-details {
+    max-width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 508px;
+}
+
+.profile-text {
+    flex: 1;
+    text-align: left;
+    margin-left: 100px;
+}
+
+.profile-text h1 {
+    font-size: 36px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.profile-pic {
+    max-width: 40%;
+    text-align: right;
+    margin-left: auto;
+}
+
+.profile-pic img {
+    width: 160%;
+    margin-left: 263px;
+}
